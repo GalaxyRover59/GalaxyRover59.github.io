@@ -13,14 +13,24 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+<<<<<<< HEAD
 timezone:
+=======
+timezone: Asia/Shanghai
+>>>>>>> fda4a7c (First commit)
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+<<<<<<< HEAD
 title: Chirpy # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
+=======
+title: 小小书房 # the main title
+
+tagline: 闲读随记 # it will display as the sub-title
+>>>>>>> fda4a7c (First commit)
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,10 +39,17 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
+<<<<<<< HEAD
   username: github_username # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
+=======
+  username: GalaxyRover59 # change to your github username
+
+twitter:
+#  username: twitter_username # change to your twitter username
+>>>>>>> fda4a7c (First commit)
 
 social:
   # Change to your full name.

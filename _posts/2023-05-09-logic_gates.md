@@ -2,7 +2,8 @@
 title: CO1. 逻辑门
 author: GalaxyRover59
 date: 2023-05-09
-category: 计算机组成原理
+category: [计算机组成原理]
+math: true
 layout: post
 ---
 

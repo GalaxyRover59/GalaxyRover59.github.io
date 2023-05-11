@@ -24,10 +24,10 @@ title: 小小书房 # the main title
 tagline: 闲读随记 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  关于各类知识的读书笔记.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://GalaxyRover59.github.io"
 
 github:
   username: GalaxyRover59 # change to your github username

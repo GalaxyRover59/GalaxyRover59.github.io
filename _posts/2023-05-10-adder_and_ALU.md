@@ -2,7 +2,9 @@
 title: CO2. 加法器与算术逻辑单元
 author: GalaxyRover59
 date: 2023-05-10
-category: 计算机组成原理
+category: [计算机组成原理]
+tags: [hardware]
+math: true
 layout: post
 ---
 
@@ -35,3 +37,16 @@ layout: post
 
 ## 2. 算术逻辑单元
 
+到目前为止，所有提到的硬件（各逻辑门及加法器）都是通用的。之后，在这些硬件的基础上，将要开始构建一个算术逻辑单元（Arithmetic Logic Unit, ALU），这个硬件将成为我们CPU的计算核心。这个ALU的设计是独特的，应用于[Nand to Tetris](https://www.coursera.org/learn/build-a-computer)这门课程上，名为Hack。不过，Hack ALU背后的设计原则是通用的，具有指导意义的。
+
+顾名思义，算术逻辑单元是一种设计用于计算一组算术和逻辑运算的芯片。ALU到底应该采用哪些操作是一个基于成本效益考虑的设计决策。在Hack平台的情况下，设计者决定(i)ALU将只执行整数运算（而不是浮点数运算）和（ii）ALU将计算下图中所示的18个算术逻辑函数的集合。
+
+![HackALU](/images/HackALU.png "Hack ALU与可执行的算术逻辑运算")
+
+Hack ALU操作两个16位二进制整型数字：x和y；以及6个1位的输入，称为控制位。这些控制位决定了所采取的算术逻辑运算，如下表所示。
+
+![AL operation](/images/ArithmeticLogicOperation.png "控制位及对应的算术逻辑运算")
+
+事实上，6个控制位一共可以执行 $2^6=64$ 种算术逻辑操作，并且，一些不在表中的ALU操作是相当有意义的。然而这里决定只关注并记录其中的18种，因为这些已足以支持构建目标计算机系统的指令集。
+
+注意，除了对两个输入计算指定的函数外，ALU还有两个输出位zr和ng。它们分别标记ALU输出为零或负的情况，并将被在后续章节的CPU中使用。

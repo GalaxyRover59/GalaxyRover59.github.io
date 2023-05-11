@@ -2,7 +2,9 @@
 title: Appendix A. 门电路原理
 author: GalaxyRover59
 date: 2023-05-10
-category: 计算机组成原理
+category: [计算机组成原理]
+tags: [hardware]
+math: true
 layout: post
 ---
 

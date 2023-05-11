@@ -3,6 +3,7 @@ title: CO1. 逻辑门
 author: GalaxyRover59
 date: 2023-05-09
 category: [计算机组成原理]
+tags: [hardware]
 math: true
 layout: post
 ---
@@ -69,7 +70,9 @@ $$\begin{aligned}
 
 ### HDL与硬件模拟器
 
-关于这部分内容，请参阅参考文献[@Nand2Tetris]或Coursera网站上相关课程内容。
+关于这部分内容，请参阅参考文献[^1]或Coursera网站上[相关课程内容](https://www.coursera.org/learn/build-a-computer)。
+
+[^1]:Noam Nisan and Shimon Schocken. *The elements of computing systems: building a modern computer from first principles.* MIT press, 2021.
 
 ## 4. 常用逻辑门
 

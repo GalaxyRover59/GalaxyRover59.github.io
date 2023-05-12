@@ -1,7 +1,7 @@
 ---
 title: Appendix B. 时序电路
 author: GalaxyRover59
-date: 2023-05-10
+date: 2023-05-10 20:16:00 +0800
 category: [计算机组成原理]
 tags: [hardware]
 layout: post

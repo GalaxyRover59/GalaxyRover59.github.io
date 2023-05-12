@@ -33,7 +33,7 @@ Transistor，它名字的由来是因其Gate部分由上往下依次由金属(Me
 
 记栅极电压为$V_G$，阈值电压为$V_{th}$；当$V_G <V_{th}$时，源极与漏极间没有电子的移动，晶体管不导通；当$V_G$逐渐增大并超过$V_{th}$时，此时由于提供了足够大的自上而下的电场$E$，电子会往栅极方向聚集，从而形成载流子通道。
 
-<div align=center><img src="/images/NMOS.png" width="400" title="NMOS示意图"></div>
+![NMOS](/images/NMOS.png "NMOS示意图"){: w="400" }
 
 MOSFET根据通道里的载流子类型可分为N型和P型，分别为NMOS和PMOS。NMOS在栅极接高电压(High
 Voltage 或 VDD)时形成通道；PMOS在栅极接低电压(Low Voltage 或

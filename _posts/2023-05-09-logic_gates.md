@@ -3,7 +3,7 @@ title: CO1. 逻辑门
 author: GalaxyRover59
 date: 2023-05-09 10:00:00 +0800
 category: [计算机组成原理]
-tags: [hardware]
+tags: [hardware, nand2tetris]
 math: true
 layout: post
 ---

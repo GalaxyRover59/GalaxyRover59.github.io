@@ -3,7 +3,7 @@ title: CO2. 加法器与算术逻辑单元
 author: GalaxyRover59
 date: 2023-05-10  10:08:00 +0800
 category: [计算机组成原理]
-tags: [hardware]
+tags: [hardware, nand2tetris]
 math: true
 layout: post
 ---

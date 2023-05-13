@@ -82,13 +82,17 @@ $$\begin{aligned}
 
 数据选择器是一个三输入门。其有两个数据输入位------a和b，以及一个选择位------sel，用于选择输出a或b的值。
 
-![数据选择器](/images/Multiplexer.png "数据选择器")
+![数据选择器](/images/Multiplexer.png "数据选择器"){: w="600" }
+
+![MUX](/images/MultiplexerCircuit.png "数据选择器电路图"){: w="400" }
 
 - ### 数据分配器
 
 数据分配器执行与数据选择器相反的功能：它接受单个输入值，并根据sel的值将其输出到a与b中的某一路，另一个输出则被设置为0。
 
-![数据分配器](/images/Demultiplexer.png "数据分配器")
+![数据分配器](/images/Demultiplexer.png "数据分配器"){: w="600" }
+
+![DMUX](/images/DemultiplexerCircuit.png "数据分配器电路图"){: w="300" }
 
 - ### 多位逻辑门
 

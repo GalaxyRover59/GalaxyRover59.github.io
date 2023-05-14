@@ -2,8 +2,9 @@
 title: Appendix B. 时序电路
 author: GalaxyRover59
 date: 2023-05-10 20:16:00 +0800
-category: [计算机组成原理]
+category: [计算机科学, 计算机组成原理]
 tags: [hardware]
+img_path: /images/computer_organization/
 layout: post
 ---
 

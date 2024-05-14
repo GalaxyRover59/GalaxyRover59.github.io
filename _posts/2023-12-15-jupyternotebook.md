@@ -2,7 +2,7 @@
 title: 远程访问服务器上的Jupyter Notebook与TensorBoard
 author: GalaxyRover59
 date: 2023-12-15 15:10:00 +0800
-category: [计算机科学, 其他]
+category: [计算机科学]
 tags: [jupyter notebook, tensorboard]
 math: true
 layout: post

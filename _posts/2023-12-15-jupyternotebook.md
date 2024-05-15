@@ -19,6 +19,50 @@ jupyter notebook --generate-config
 进入配置文件“jupyter_notebook_config.py”后，查找关键词：“c.NotebookApp.notebook_dir”，其后即为根目录。
 
 ### (2). 拓展功能
+#### ① nb_conda
+```bash
+conda install conda-forge::nb_conda
+```
+
+进入jupyter notebook后，点击上方Conda按钮，可能会报错“EnvironmentLocationNotFound: Not a conda environment: D:\anaconda3\envs\anaconda3”，同时除了root环境，还存在anaconda3也对应D:\anaconda3。
+
+解决办法是：进入“..\anaconda3\pkgs\nb_conda-2.2.1-win_7\site-packages\nb_conda”(Windows)或“..\anaconda3\pkgs\nb_conda-2.2.0-py36_0\Lib\site-packages\nb_conda”(Linux)文件夹，打开“envmanager.py”文件，找到：
+```python
+return {
+            "environments": [root_env] + [get_info(env)
+                                          for env in info['envs']]
+        }
+```
+修改为：
+```python
+return {
+            "environments": [root_env] + [get_info(env) for env in info['envs']
+                                          if env != root_env['dir']]
+        }
+```
+
+#### ② Markdown生成目录
+Jupyter Notebook无法为Markdown文档通过特定语法添加目录，因此需要通过安装扩展来实现目录的添加。
+```bash
+conda install -c conda-forge jupyter_contrib_nbextensions
+```
+
+#### ③ 切换/使用conda虚拟环境
+● 为conda环境创建特殊内核
+```bash
+conda activate virtual-env
+conda install ipykernel
+ipython kernel install --user --name=my-conda-env-kernel
+conda deactivate
+```
+
+● 使用nb_conda_kernels添加所有环境
+在base环境（或者想运行jupyter notebook的其它环境）里安装好nb_conda_kernels包，之后进入需要使用的虚拟环境
+```bash
+conda activate virtual-env
+conda install ipykernel
+conda deactivate
+```
 
 
 ## 2. ssh远程使用jupyter notebook

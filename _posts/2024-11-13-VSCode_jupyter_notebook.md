@@ -15,6 +15,7 @@ layout: post
 ## 1.问题原因
 
 这似乎是由于IPython内核的特性导致的，具体可以参考下面几个帖子：
+
 [Jupyter Notebook/Lab set current directory to ipynb file's](https://stackoverflow.com/questions/72877765/jupyter-notebook-lab-set-current-directory-to-ipynb-files)
 
 [How to obtain Jupyter Notebook's path?](https://stackoverflow.com/questions/52119454/how-to-obtain-jupyter-notebooks-path)

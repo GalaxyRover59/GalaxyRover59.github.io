@@ -4,8 +4,6 @@ author: GalaxyRover59
 date: 2024-11-13 21:44:00 +0800
 category: [计算机科学, 其他]
 tags: [VSCode, jupyter notebook]
-math: true
-img_path: /images/computer_others/
 layout: post
 ---
 这个问题出现在：我用VSCode远程连接服务器后，打开Jupyter Notebook，在一个单元格中有几行代码，import了同文件夹下的几个python模块，但返回报错“ModuleNotFoundError”.

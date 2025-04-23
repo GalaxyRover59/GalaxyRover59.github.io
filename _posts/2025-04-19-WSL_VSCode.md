@@ -4,7 +4,7 @@ author: GalaxyRover59
 date: 2025-04-19 14:30:00 +0800
 category: [计算机科学, 其他]
 tags: [WSL, VSCode]
-img_path: /images/computer_others/
+img_path: /assets/img/computer_others/
 layout: post
 ---
 WSL全称Windows Subsystem for Linux（Windows上的Linux子系统），其通过Windows NT内核层面支持了Linux的内核接口，使得能直接在Windows系统中运行Linux环境。
@@ -67,7 +67,7 @@ default = username
 
 进入[官网](https://developer.nvidia.com/cuda-toolkit-archive)，选择显卡驱动能运行的CUDA Toolkit
 
-![CUDA Toolkit installation](CUDA_Toolkit_downloads.png "CUDA Toolkit安装选项")
+![CUDA Toolkit installation]({{ page.img_path }}CUDA_Toolkit_downloads.png "CUDA Toolkit安装选项")
 
 将对应的命令输入Ubuntu的命令行终端来进行安装。
 
@@ -85,7 +85,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:$LD_LIBRARY_PATH
 
 进入[官网](https://developer.nvidia.com/cudnn-downloads)
 
-![cuDNN installation](cuDNN_downloads.png "cuDNN安装选项")
+![cuDNN installation]({{ page.img_path }}cuDNN_downloads.png "cuDNN安装选项")
 
 选择选项后将对应的命令输入终端进行安装。如有需要，也可以选择[历史版本](https://developer.nvidia.com/rdp/cudnn-archive)。
 
@@ -159,7 +159,7 @@ source ~/.virtualenvs/myenv/bin/activate
 
 在VSCode的扩展界面里，主要搜索并安装以下两个插件
 
-![VSCode WSL extensions](VSCode_WSL_extensions.png "VSCode里安装WSL相关插件")
+![VSCode WSL extensions]({{ page.img_path }}VSCode_WSL_extensions.png "VSCode里安装WSL相关插件")
 
 以上步骤完成后，可以在WSL终端跳转到项目目录，输入`code .`就可以打开VSCode。也可以先打开VSCode，以快捷方式Ctrl+Shift+P调出命令面板，输入WSL，选择选项来打开项目文件。
 
